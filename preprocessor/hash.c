@@ -81,8 +81,8 @@ void undef(char *name) {
 void defineroutine() {
     
     FILE *file, *newfile;
-    file = fopen("testfile.cpp","r");
-    newfile = fopen("newfile.cpp","w");
+    file = fopen("testfile.c","r");
+    newfile = fopen("newfile.c","w");
     if (file == NULL) {
         perror("Error opening file\n");
         return;
